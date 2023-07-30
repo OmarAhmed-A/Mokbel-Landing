@@ -32,7 +32,7 @@ function Header() {
   });
 
   return (
-    <header className="absolute w-full z-30">
+    <header className="fixed w-full z-30 bg-gray-300 bg-opacity-50 shadow">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
 
@@ -40,8 +40,7 @@ function Header() {
           <div className="shrink-0 mr-4">
             {/* Logo */}
             <Link to="/" className="block" aria-label="Cruip">
-            <img src={logo} alt="Logo" className="w-12 h-12" />
-
+            <img src={logo} alt="Logo" className="w-12 h-12 border border-purple-900" />
             </Link>
           </div>
 
@@ -50,9 +49,9 @@ function Header() {
 
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
-              {/* <li>
-                <Link to="/signin" className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">Sign in</Link>
-              </li> */}
+              <li>
+                <Link to="/signin" className="btn-sm text-purple-600 bg-white ml-3 hover:text-gray-900 flex items-center transition duration-150 ease-in-out">Pricing</Link>
+              </li>
               <li>
                 <Link to="/signup" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">Sign up</Link>
               </li>
