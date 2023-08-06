@@ -34,8 +34,8 @@ function SignIn() {
                 <form>
                   <div className="flex flex-wrap -mx-3">
                     <div className="w-full px-3">
-                      <button className="btn px-0 text-white bg-red-600 hover:bg-red-700 w-full relative flex items-center">
-                        <svg className="w-4 h-4 fill-current text-white opacity-75 shrink-0 mx-4" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                      <button className="btn px-0 text-black bg-red-600 hover:bg-red-700 w-full relative flex items-center">
+                        <svg className="w-4 h-4 fill-current text-black opacity-75 shrink-0 mx-4" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                           <path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" />
                         </svg>
                         <span className="h-6 flex items-center border-r border-white border-opacity-25 mr-4" aria-hidden="true"></span>
@@ -46,7 +46,7 @@ function SignIn() {
                 </form>
                 <div className="flex items-center my-6">
                   <div className="border-t border-gray-700 border-dotted grow mr-3" aria-hidden="true"></div>
-                  <div className="text-gray-400">Or, sign in with your email</div>
+                  <div className="text-slate-400">Or, sign in with your email</div>
                   <div className="border-t border-gray-700 border-dotted grow ml-3" aria-hidden="true"></div>
                 </div>
                 <form>
@@ -67,7 +67,7 @@ function SignIn() {
                       <div className="flex justify-between">
                         <label className="flex items-center">
                           <input type="checkbox" className="form-checkbox" />
-                          <span className="text-gray-400 ml-2">Keep me signed in</span>
+                          <span className="text-slate-400 ml-2">Keep me signed in</span>
                         </label>
                         <Link to="/reset-password" className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out">Forgot Password?</Link>
                       </div>
@@ -75,11 +75,11 @@ function SignIn() {
                   </div>
                   <div className="flex flex-wrap -mx-3 mt-6">
                     <div className="w-full px-3">
-                      <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-full">Sign in</button>
+                      <button className="btn text-black bg-purple-600 hover:bg-purple-700 w-full">Sign in</button>
                     </div>
                   </div>
                 </form>
-                <div className="text-gray-400 text-center mt-6">
+                <div className="text-slate-400 text-center mt-6">
                   Don’t you have an account? <Link to="/signup" className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out">Sign up</Link>
                 </div>
               </div>

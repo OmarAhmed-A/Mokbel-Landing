@@ -32,7 +32,7 @@ function Header() {
   });
 
   return (
-    <header className="fixed w-full z-30 bg-gray-300 bg-opacity-50 shadow">
+    <header className="fixed w-full z-30 bg-indigo-500 bg-opacity-40 shadow">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
 
@@ -50,10 +50,10 @@ function Header() {
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
-                <Link to="/signin" className="btn-sm text-purple-600 bg-white ml-3 hover:text-gray-900 flex items-center transition duration-150 ease-in-out">Pricing</Link>
+                <Link to="/pricing" className="btn-sm text-indigo-500 bg-white ml-3 hover:text-gray-900 flex items-center transition duration-150 ease-in-out">Pricing</Link>
               </li>
               <li>
-                <Link to="/signup" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">Sign up</Link>
+                <Link to="/signup" className="btn-sm text-white bg-indigo-500 hover:bg-purple-700 ml-3">Sign up</Link>
               </li>
             </ul>
 
@@ -79,7 +79,7 @@ function Header() {
                   <Link to="/signin" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center">Sign in</Link>
                 </li> */}
                 <li>
-                  <Link to="/signup" className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out">Sign up</Link>
+                  <Link to="/signup" className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-black bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out">Sign up</Link>
                 </li>
               </ul>
             </nav>

@@ -30,21 +30,19 @@ function SignUp() {
                   Welcome. We exist to make entrepreneurship easier.
                 </h1>
               </div>
-              <div class="flex">
-                <iframe
-                  src={formLink}
-                  width="600"
-                  height="800"
-                  frameborder="0"
-                  marginheight="0"
-                  marginwidth="0"
-                  class="flex-grow"
-                >
-                  Loading…
-                </iframe>
-              </div>
+
               {/* Form */}
-            
+
+            </div>
+            <div className="flex justify-center">
+              <iframe
+                src={formLink}
+                height="800"
+                width="600"
+                className="rounded-lg shadow-2xl"
+              >
+                Loading…
+              </iframe>
             </div>
           </div>
         </section>

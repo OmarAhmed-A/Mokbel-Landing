@@ -22,3 +22,7 @@
 [x-cloak=""] {
     display: none;
 }
+
+:root {
+    color-scheme: dark;
+  }
