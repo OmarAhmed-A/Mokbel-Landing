@@ -11,7 +11,7 @@ function SignUp() {
   const [addr, setAddr] = useState("");
   const [submissionResult, setSubmissionResult] = useState("");
 
-  const proxyLink = "https://thingproxy.freeboard.io/fetch/" //this is a proxy link to bypass CORS error
+  const proxyLink = "https://cors-proxy.omiro755.workers.dev/" //this is a proxy link to bypass CORS error
   const responseLink = `https://docs.google.com/forms/d/e/1FAIpQLScVdT2tvP89h1nGj5V-5XaGrP8JekiZqC6rbQsrMU7ndwvnkw/formResponse?usp=pp_url&entry.2005620554=${stname}&entry.1166974658=${phone}&entry.1045781291=${email}&entry.1065046570=${addr}&submit=Submit`;
 
   const handleSubmit = async (e) => {
@@ -27,6 +27,7 @@ function SignUp() {
         setSubmissionResult("error");
       }
     } catch (error) {
+
       console.log(error);
       console.log("error");
       setSubmissionResult("error");
