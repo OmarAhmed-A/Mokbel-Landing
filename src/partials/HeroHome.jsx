@@ -9,7 +9,7 @@ function HeroHome() {
 
   useEffect(() => {
     videoModalOpen ? video.current.play() : video.current.pause();
-  }, [videoModalOpen]);    
+  }, [videoModalOpen]);
 
   return (
     <section>
@@ -45,20 +45,22 @@ function HeroHome() {
               Mokbel is the future of shopping
             </h1>
             <p className="text-xl text-slate-400 mb-8" data-aos="fade-up" data-aos-delay="200">
-              Mokbel is a new way to shop online. We are on a mission to make shopping fun again. We are a team of passionate entrepreneurs, designers, and developers who believe that shopping should be an experience. We are building a platform that will change the way people shop online.
+              We are Mokbel, a revolutionary mobile app that empowers local cloth stores and smart shoppers.
+              Our mission is to bridge the gap between offline and online shopping, creating a unified marketplace that offers convenience, variety, and affordability.
+              We believe that fashion is for everyone, and we want to make it easier for you to find your style and express yourself.
             </p>
-            {/* <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+            <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-black bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">
-                  Start free trial
+                <a className="btn text-black bg-indigo-500 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">
+                Download app
                 </a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
-                <a className="btn text-black bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">
-                  Learn more
+                <a className="btn text-white bg-lime-900 hover:bg-gray-900 w-full sm:w-auto sm:ml-4" href="/signup">
+                Become a seller
                 </a>
               </div>
-            </div> */}
+            </div>
           </div>
 
           {/* Hero image */}

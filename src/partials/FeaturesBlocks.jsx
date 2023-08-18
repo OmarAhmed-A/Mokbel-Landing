@@ -8,8 +8,8 @@ function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">The majority our customers do not understand their workflows.</h2>
-            <p className="text-xl text-slate-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h2 className="h2 mb-4">Most local cloth stores lack online visibility and struggle to reach new customers.</h2>
+            <p className="text-xl text-slate-400">This limits their growth potential and reduces their competitiveness in the market. Customers, on the other hand, often miss out on finding the best deals and unique products from local stores, due to the absence of a centralized platform that connects them. This results in a frustrating and inefficient shopping experience for both parties.</p>
           </div>
 
           {/* Items */}
@@ -17,24 +17,25 @@ function FeaturesBlocks() {
 
             {/* 1st item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              <svg className='w-16 h-16 mb-4' viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-indigo-900" width="64" height="64" rx="32" />
-                <path className="stroke-current text-purple-100" d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd" />
-                <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
+                <circle fill="none" stroke="#FFFFFF" stroke-width="2" cx="32" cy="32" r="14" />
+                <path fill="none" stroke="#FFFFFF" stroke-width="2" d="M26 32l6 6 10-10" />
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-slate-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+
+              <h4 className="h4 mb-2">Easy Setup</h4>
+              <p className="text-lg text-slate-400 text-center">Mokbel lets you create your online store in minutes, without any coding or design skills. Just sign up, upload your products, and start selling.</p>
             </div>
 
             {/* 2nd item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <circle className="fill-current text-indigo-900" cx="32" cy="32" r="32" />
-                <path className="stroke-current text-purple-100" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
-                <path className="stroke-current text-purple-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
+                <path className="stroke-current text-purple-100" strokeWidth="2" strokeLinecap="square" d="M16 24h32v16H16z" fill="none" fillRule="evenodd" />
+                <path className="stroke-current text-purple-300" d="M20 28h8M20 32h8M20 36h8M36 28h8M36 32h8M36 36h8" strokeWidth="2" strokeLinecap="square" />
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-slate-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2">Best Way to Shop</h4>
+              <p className="text-lg text-slate-400 text-center">With Mokbel, you can shop for clothes online like never before. You can explore local fashion trends, compare prices and quality, and order from your favorite stores with ease. Mokbel also rewards you for every purchase you make through the app.</p>
             </div>
 
             {/* 3rd item */}
